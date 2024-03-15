@@ -101,7 +101,6 @@ footer{
     text-align: center;
     line-height: 80px;
     border: solid;
-    
 }
 .imgul{
     width: 22%;
@@ -120,4 +119,8 @@ footer{
 }
 li{
     font-size: 35px;
+}
+
+.listap1{
+    margin: 10px 5px 10px 0px;
 }
