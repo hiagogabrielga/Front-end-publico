@@ -26,6 +26,12 @@ body{
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
 }
+#p5{
+    background-image: url(/Projeto/img/fundop3.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 p{
     font-size: 170%;
     font-weight: bold;
@@ -165,4 +171,36 @@ li{
     width: 25%;
     height: 25%;
     margin: 2% 0% 0% 0%;
+}
+
+#esteregg{
+    background-color: gray;
+    font-size: 100%;
+    text-decoration: none;
+    transition: color 0.3s;
+    border: none;
+    margin: 0px 0px 0px 0px;
+}
+
+#imgesteregg{
+    width: 250px;
+    height: 200px;
+    border: none;
+    border-radius: none;
+    
+}
+button{
+    background-color: gray;
+    border: none;
+    width: 20%;
+}
+#meme{
+    border: none;
+    width: 250px;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+}
+
+#footerp5{
+    margin: 5% 0% 0% 0%;
 }
