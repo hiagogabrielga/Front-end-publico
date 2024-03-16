@@ -1,12 +1,33 @@
-*{
-    background-color: grey;
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     scroll-behavior: smooth;
+}
+
+#p1{
+    background-image: url(/Projeto/img/fundop1.jpg);
+}
+#p2{
+    background-image: url(/Projeto/img/fundop2.jpg);
+}
+#p3{
+    background-image: url(/Projeto/img/fundop3.webp);
+}
+#p4{
+    background-color: gray;
 }
 p{
     font-size: 170%;
     font-weight: bold;
+    margin: 15px;
 }
-
+.fundo{
+    border: 5px solid;
+    background-color: gray;
+    border-radius: 15px;
+    margin: 1% 15% 5% 15%;
+}
 a{
     color: rgb(0, 0, 0);
     background-color: rgb(134, 134, 134);
@@ -28,9 +49,10 @@ ul{
 }
 img{
     width: 19%;
+    height: 19%;
     border: 5px solid;
     border-radius: 3%;
-    margin: 0px 15px 0px 15px;
+    margin: 30px 15px 0px 15px;
 }
 h2{
     font: normal 40px Arial;
@@ -39,6 +61,7 @@ h2{
     
 }
 h1{
+    background-color: gray;
     font: normal 40px Arial;
     border: 10px solid;
     border-radius: 13px;
@@ -90,7 +113,6 @@ span{
     color: white;
 }
 footer{
-    position:initial;
     width: 100%;
     height: 79px;
     top: 0%;
@@ -101,6 +123,7 @@ footer{
     text-align: center;
     line-height: 80px;
     border: solid;
+    margin: 50% 0% 0% 0%;
 }
 .imgul{
     width: 22%;
@@ -110,10 +133,6 @@ footer{
     margin: 15px 15px 5px 15px;
 }
 
-.div-video{
-    margin: 5px 5px 25px 0px;
-}
-
 #trailer{
     margin: 0px 5px 7px 0px;
 }
@@ -121,8 +140,20 @@ li{
     font-size: 35px;
 }
 
-.listap1{
-    margin: 10px 5px 10px 0px;
-    font-size: 25px;
-    font-family: Arial;
+#footerp4{
+    margin: 5% 0% 0% 0%;
+}
+
+#giorno{
+    border: none;
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+}
+
+#jotaroedio{
+    border: none;
+    width: 25%;
+    height: 25%;
+    margin: 2% 0% 0% 0%;
 }
