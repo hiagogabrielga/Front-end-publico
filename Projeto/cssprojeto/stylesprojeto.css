@@ -20,7 +20,7 @@ body{
     margin: 85px 0px 0px 0px;
 }
 #p3{
-    background-image: url(../img/fundop3.webp);
+    background-image: url(../img/wp2200980.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,7 +60,7 @@ img{
     height: 19%;
     border: 5px solid;
     border-radius: 3%;
-    margin: 30px 15px 0px 15px;
+    margin: 20px 15px 0px 15px;
 }
 h2{
     font: normal 40px Arial;
@@ -158,7 +158,7 @@ li{
     border: none;
     width: 25%;
     height: 25%;
-    margin: 2% 0% 0% 0%;
+    margin: 2% 1% 0% 1%;
 }
 
 #esteregg{
