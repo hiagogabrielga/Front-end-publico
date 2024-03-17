@@ -26,12 +26,6 @@ body{
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
 }
-#p5{
-    background-image: url(../img/fundop3.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 p{
     font-size: 170%;
     font-weight: bold;
@@ -57,7 +51,6 @@ a{
 a:hover {
     color: rgb(16, 16, 92);
     background-color: rgb(160, 85, 230);
-
   }
 ul{
     font-size: 20px;
@@ -138,7 +131,6 @@ footer{
     text-align: center;
     line-height: 80px;
     border: solid;
-    margin: 50% 0% 0% 0%;
 }
 .imgul{
     width: 22%;
@@ -153,10 +145,6 @@ footer{
 }
 li{
     font-size: 35px;
-}
-
-#footerp4{
-    margin: 5% 0% 0% 0%;
 }
 
 #giorno{
@@ -199,8 +187,4 @@ button{
     width: 250px;
     height: 70px;
     margin: 0px 0px 10px 0px;
-}
-
-#footerp5{
-    margin: 5% 0% 0% 0%;
 }
