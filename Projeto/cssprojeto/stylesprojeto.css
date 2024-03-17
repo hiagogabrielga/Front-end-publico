@@ -6,28 +6,28 @@ body{
 }
 
 #p1{
-    background-image: url(/Projeto/img/fundop1.jpg);
+    background-image: url(../img/fundop1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
 }
 #p2{
-    background-image: url(/Projeto/img/fundop2.jpg);
+    background-image: url(../img/fundop2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
 }
 #p3{
-    background-image: url(/Projeto/img/fundop3.webp);
+    background-image: url(../img/fundop3.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
 }
 #p5{
-    background-image: url(/Projeto/img/fundop3.webp);
+    background-image: url(../img/fundop3.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
