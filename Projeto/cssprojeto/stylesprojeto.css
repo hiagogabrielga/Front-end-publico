@@ -1,10 +1,41 @@
+body{
+    background-color: gray;
+}
 *{
-    background-color: grey;
     scroll-behavior: smooth;
+}
+
+#p1{
+    background-image: url(../img/fundop1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 85px 0px 0px 0px;
+}
+#p2{
+    background-image: url(../img/fundop2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 85px 0px 0px 0px;
+}
+#p3{
+    background-image: url(../img/wp2200980.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 85px 0px 0px 0px;
 }
 p{
     font-size: 170%;
     font-weight: bold;
+    margin: 15px;
+}
+.fundo{
+    border: 5px solid;
+    background-color: gray;
+    border-radius: 15px;
+    margin: 1% 15% 5% 15%;
 }
 a{
     color: rgb(0, 0, 0);
@@ -20,16 +51,16 @@ a{
 a:hover {
     color: rgb(16, 16, 92);
     background-color: rgb(160, 85, 230);
-
   }
 ul{
     font-size: 20px;
 }
 img{
     width: 19%;
+    height: 19%;
     border: 5px solid;
     border-radius: 3%;
-    margin: 0px 15px 0px 15px;
+    margin: 20px 15px 0px 15px;
 }
 h2{
     font: normal 40px Arial;
@@ -38,6 +69,7 @@ h2{
     
 }
 h1{
+    background-color: gray;
     font: normal 40px Arial;
     border: 10px solid;
     border-radius: 13px;
@@ -89,7 +121,6 @@ span{
     color: white;
 }
 footer{
-    position:initial;
     width: 100%;
     height: 79px;
     top: 0%;
@@ -109,10 +140,6 @@ footer{
     margin: 15px 15px 5px 15px;
 }
 
-.div-video{
-    margin: 5px 5px 25px 0px;
-}
-
 #trailer{
     margin: 0px 5px 7px 0px;
 }
@@ -120,6 +147,44 @@ li{
     font-size: 35px;
 }
 
-.listap1{
-    margin: 10px 5px 10px 0px;
+#giorno{
+    border: none;
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+}
+
+#jotaroedio{
+    border: none;
+    width: 25%;
+    height: 25%;
+    margin: 2% 1% 0% 1%;
+}
+
+#esteregg{
+    background-color: gray;
+    font-size: 100%;
+    text-decoration: none;
+    transition: color 0.3s;
+    border: none;
+    margin: 0px 0px 0px 0px;
+}
+
+#imgesteregg{
+    width: 250px;
+    height: 200px;
+    border: none;
+    border-radius: none;
+    
+}
+button{
+    background-color: gray;
+    border: none;
+    width: 20%;
+}
+#meme{
+    border: none;
+    width: 250px;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
 }
