@@ -1,29 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sobre o Araki</title>
-    <link rel="stylesheet" href="cssprojeto/stylesprojeto.css">
+    <title>autor</title>
     <link rel="icon" href="img/JoJos-Bizarre-Adventure-Jojo-PNG-Photo-300x279.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/stylemenu.css">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
 </head>
 
-<body>
-    <div id="p3">
-        <div id="introducao" style="padding: 20px 0px 0px 0px;">
-            <div id="rodape">
-                <a class="anrodape" href="#introducao">Introdução</a>
-                <a class="anrodape" href="#historia">Historia</a>
-                <a class="anrodape" href="#trabalhoRecente">Trabalhos</a>
-                <a class="anrodape" href="#guiasp3">Guias</a>
+<body id="p3">
+    <header>
+        <div>
+            <ul id="menu-superior">
+                <li class="item-header">
+                    <a href="index.html">
+                        <span class="icon"><i class="bi bi-book"></i></span>
+                        <span class="txt-link">1°Universo</span>
+                    </a>
+                </li>
+                <li class="item-header">
+                    <a href="mangau2.html">
+                        <span class="icon"><i class="bi bi-book"></i></span>
+                        <span class="txt-link">2°Universo</span>
+                    </a>
+                </li>
+                <li class="item-header">
+                    <a href="anime.html">
+                        <span class="icon"><i class="bi bi-tv"></i></span>
+                        <span class="txt-link">Anime</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav class="menu-lateral">
+            <div class="btn-expandir">
+                <i class="bi bi-list" id="btnExp"></i>
             </div>
-            <div style="height: 60px;"></div>
-            <h1 style="text-align: center; ">Hirohiko Araki</h1>
+            <ul>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-journal"></i></span>
+                        <span class="txt-link">Introdução</span>
+                    </a>
+                </li>
+
+                <li class="item-menu">
+                    <a href="#historia">
+                        <span class="icon"><i class="bi bi-journal-text"></i></span>
+                        <span class="txt-link">Biografia</span>
+                    </a>
+                </li>
+
+                <li class="item-menu">
+                    <a href="#trabalhoRecente">
+                        <span class="icon"><i class="bi bi-pencil-fill"></i></span>
+                        <span class="txt-link">Trabalhos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div style="height: 120px;"></div>
+            <h1 class="titulo_pg">Hirohiko Araki</h1>
             <div class="fundo">
                 <div style="display: flex;">
-                    <img src="img/imagem_autor.jpg" alt="" style="height: 70%; margin: 2% 1% 1% 1%;">
-                    <p>Hirohiko Araki (em japonês: 荒木 飛呂彦; hepburn: Araki Hirohiko; Sendai, 7 de junho de 1960) é um
+                    <img src="img/imagem_autor.jpg" alt="">
+                    <p class="p_autor">Hirohiko Araki (em japonês: 荒木 飛呂彦; hepburn: Araki Hirohiko; Sendai, 7 de junho
+                        de 1960) é um
                         artista
                         de
                         mangá japonês conhecido por sua série JoJo's Bizarre Adventure, publicada pela primeira vez na
@@ -44,10 +93,10 @@
         </div>
 
         <div id="historia">
-            <div style="height: 80px;"></div>
+            <div style="height: 130px;"></div>
             <div class="fundo">
-                <h2>História</h2>
-                <p>Vida pregressa
+                <h2 class="titulo_manga">História</h2>
+                <p class="p_autor">Vida pregressa
                     Araki cresceu em Sendai, no Japão, com seus pais e irmãs gêmeas. Ele cita os aborrecimentos de suas
                     irmãs
                     como a razão pela qual ele passava um tempo sozinho em seu quarto lendo mangá, nomeando Ai to Makoto
@@ -70,8 +119,8 @@
             </div>
             <div class="fundo">
                 <div style="display: flex;">
-                    <img src="img/imgjjp3.jpg" alt="">
-                    <p>Estreia e JoJo's Bizarre Adventure
+                    <img class="imgmanga" src="img/imgjjp3.jpg" alt="">
+                    <p class="p_autor">Estreia e JoJo's Bizarre Adventure
                         Araki deixou a Universidade de Educação de Miyagi antes de se formar, e fez sua estréia em 1980
                         com
                         o
@@ -97,7 +146,8 @@
                         musculares (que mais tarde se tornaria mais extravagante).</p>
                 </div>
 
-                <p>Sua próxima série se tornaria seu magnum opus, JoJo's Bizarre Adventure, de 1987. <span> A série
+                <p class="p_autor">Sua próxima série se tornaria seu magnum opus, JoJo's Bizarre Adventure, de 1987.
+                    <span> A série
                         começa
                         na
                         Inglaterra dos anos 1880 e segue Jonathan Joestar (JoJo) e seu irmão adotivo Dio Brando, que
@@ -124,10 +174,11 @@
             </div>
         </div>
         <div id="trabalhoRecente">
-            <div style="height: 80px;"></div>
+            <div style="height: 120px;"></div>
             <div class="fundo">
-                <h2>Trabalho recente</h2>
-                <p>A edição de setembro de 2007 da Cell tinha uma capa desenhada por Araki com uma ligase
+                <h2 class="titulo_manga">Trabalho recente</h2>
+                <p class="p_autor">A edição de setembro de 2007 da Cell tinha uma capa desenhada por Araki com uma
+                    ligase
                     representada
                     como
                     um
@@ -138,7 +189,8 @@
                     japonesa Base Ball Bear, que na verdade pega uma imagem do mangá JoJo.</p>
                 <div style="display: flex;">
                     <img id=imglouvre src="img/jojomuseulouvre.jpg" alt="">
-                    <p><span>Em 2009, Hirohiko Araki foi um dos cinco artistas selecionados pelo Museu do Louvre
+                    <p class="p_autor"><span>Em 2009, Hirohiko Araki foi um dos cinco artistas selecionados pelo Museu
+                            do Louvre
                             para
                             criar
                             obras
@@ -159,7 +211,8 @@
                     </p>
                 </div>
                 <div style="display: flex;">
-                    <p>De 17 de setembro a 6 de outubro de 2011, a loja Gucci em Shinjuku sediou a Exposição Gucci x
+                    <p class="p_autor">De 17 de setembro a 6 de outubro de 2011, a loja Gucci em Shinjuku sediou a
+                        Exposição Gucci x
                         Hirohiko
                         Araki
                         x Spur <span> "Rohan Kishibe Vai à Gucci" (em inglês: Rohan Kishibe Goes to Gucci), uma
@@ -195,7 +248,8 @@
         <div class="fundo">
             <div style="display: flex;">
                 <div>
-                    <p>Para aumentar a conscientização sobre os esforços da reconstrução das ruínas Hiraizumi, que foram
+                    <p class="p_autor">Para aumentar a conscientização sobre os esforços da reconstrução das ruínas
+                        Hiraizumi, que foram
                         danificadas pelo terremoto e tsunami de Tōhoku em março de 2011 e declarado Patrimônio Mundial
                         da
                         UNESCO
@@ -207,7 +261,8 @@
                         Bizarre
                         Adventure, depois mudou-se para Tóquio em outubro
 
-                    <p>Araki desenhou a capa do álbum de 2012 de Sayuri Ishikawa, X-Cross, onde ela faz uma das
+                    <p class="p_autor">Araki desenhou a capa do álbum de 2012 de Sayuri Ishikawa, X-Cross, onde ela faz
+                        uma das
                         poses
                         icônicas
                         da
@@ -222,18 +277,17 @@
                         abril
                         de 2015 no Japão; uma tradução para o inglês foi lançada em 13 de junho de 2017.</p>
                 </div>
-                <img src="https://th.bing.com/th/id/R.3e92b0ddb0754c3991f94fac5fb5fed8?rik=aR1yWaXeqgTB0w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-jEJ8ZsGOjAk%2fUFBSw8K6WMI%2fAAAAAAAAGTE%2flMzVQOQl84E%2fs1600%2fnews_large_ishikawa_jojo.jpg&ehk=WBO95Hk45PU4Jb2J2b7EA0Wqhf%2fibJuj4vZGthFZRQI%3d&risl=&pid=ImgRaw&r=0"
-                    alt="" style="width: 25%; border: none;">
+                <img class="img_arte" src="https://th.bing.com/th/id/R.3e92b0ddb0754c3991f94fac5fb5fed8?rik=aR1yWaXeqgTB0w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-jEJ8ZsGOjAk%2fUFBSw8K6WMI%2fAAAAAAAAGTE%2flMzVQOQl84E%2fs1600%2fnews_large_ishikawa_jojo.jpg&ehk=WBO95Hk45PU4Jb2J2b7EA0Wqhf%2fibJuj4vZGthFZRQI%3d&risl=&pid=ImgRaw&r=0"
+                    alt="">
             </div>
         </div>
-        <div id="guiasp3">
-            <footer>
-                <a class="anrodape" href="index.html">retonar a primeira pagina</a>
-                <a class="anrodape" href="segunda_pg.html">retonar a segunda pagina</a>
-                <a class="anrodape" href="quartapagina.html">Ler sinopse do anime</a>
-            </footer>
+    </main>
+    <footer>
+        <div>
+            <p id="msgfooter">Este site foi criado para contribuir com a aprendizagem de um aluno!</p>
         </div>
-    </div>
+    </footer>
+    <script src="javascript/menu.js"></script>
 </body>
 
 </html>
