@@ -74,7 +74,7 @@ main {
 .titulo_pg{
     background-color: gray;
     font: normal 40px Arial;
-    border: 10px solid;
+    border: 5px solid;
     border-radius: 13px;
     margin: 15px;
 }
@@ -184,4 +184,10 @@ span{
     width: 350px;
     height: 90px;
     margin: 10px;
+}
+
+.img_pg_autor{
+    margin: 25px 15px 15px 15px;
+    height: 25%;
+    border: solid 2px;
 }
