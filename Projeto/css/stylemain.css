@@ -129,6 +129,7 @@ main {
     height: 200px;
     border: none;
     border-radius: none;
+    cursor: pointer;
     
 }
 button{
@@ -175,6 +176,7 @@ span{
     border: 5px solid black;
     border-radius: 3%;
     transition: .2s;
+    cursor: pointer;
 }
 
 .imgul:hover{
@@ -214,4 +216,5 @@ span{
     width: 250px;
     height: 300px;
     margin: 25px 5px 0px 5px;
+    cursor: pointer;
 }
