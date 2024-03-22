@@ -4,13 +4,15 @@ footer {
     background-color: gray;
     padding: 10px;
     box-shadow: 0 0 0 3px rgb(145, 63, 145);
-}
-
-p{
-    margin: 2% 6%;
+    margin: 0 0 0 4%;
 }
 
 #msgfooter{
     font-size: 35px;
     font-family: Arial;
+}
+
+.agradecimentos{
+    margin: 10px;
+    font-size: 20px
 }
