@@ -39,10 +39,18 @@ main {
 
 #pgescondida{
     background-image: url(../img/fundo_esteregg.jpg);
+    
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 85px 0px 0px 0px;
+}
+#pgreferencia{
+    background-image: url(../img/fundo_referencias.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 85px 0px 0px 0px; 
 }
 
 .fundo{
@@ -74,7 +82,7 @@ main {
 .titulo_pg{
     background-color: gray;
     font: normal 40px Arial;
-    border: 10px solid;
+    border: 5px solid;
     border-radius: 13px;
     margin: 15px;
 }
@@ -121,6 +129,7 @@ main {
     height: 200px;
     border: none;
     border-radius: none;
+    cursor: pointer;
     
 }
 button{
@@ -167,6 +176,7 @@ span{
     border: 5px solid black;
     border-radius: 3%;
     transition: .2s;
+    cursor: pointer;
 }
 
 .imgul:hover{
@@ -184,4 +194,27 @@ span{
     width: 350px;
     height: 90px;
     margin: 10px;
+}
+
+.img_pg_autor{
+    margin: 25px 15px 15px 15px;
+    height: 25%;
+    border: solid 2px;
+}
+
+.titulo_referencia{
+    font-size: 45px;
+}
+
+.imgpose{
+    width: 35%;
+    height: 35%;
+    margin: 25px 5px 0px 5px;
+}
+
+.anmusica{
+    width: 250px;
+    height: 300px;
+    margin: 25px 5px 0px 5px;
+    cursor: pointer;
 }

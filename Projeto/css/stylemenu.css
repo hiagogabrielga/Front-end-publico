@@ -11,6 +11,7 @@ header{
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    cursor:context-menu;
 }
 
 nav.menu-lateral {
@@ -86,7 +87,7 @@ header {
     box-shadow: 3px 0 0 rgb(145, 63, 145);
     position: fixed;
     top: 0;
-    left: 0;
+    left: 5%;
     overflow: hidden;
     transition: 0.2s;
     box-shadow: 0 3px 0 rgb(145, 63, 145);
@@ -101,22 +102,25 @@ ul li.item-header a {
     text-decoration: none;
     font-size: 20px;
     display: flex;
-    padding: 0% 5% 2% 25%;
     margin: 0 50px 50px 20px;
     transition: .2s;
     text-decoration: solid;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     line-height: 40px;
+    cursor: pointer;
 }
 
-ul li.item-header a:hover{
-    color:  rgb(145, 63, 145);
-}
 ul li.item-header a .icon>i {
     font-size: 30px;
-    margin-left: 17px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 ul li.item-header a .txt-link{
     margin-left: 20px;
+    cursor: pointer;
+}
+
+#pg_escondida{
+    left: 0;
 }
